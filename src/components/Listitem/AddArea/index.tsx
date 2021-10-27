@@ -16,8 +16,11 @@ export const AddArea = ({ onEnter }: Props) => {
     }
     
     const adicionaMais = () => {
-        onEnter(inputText);
-        setInputText('');
+        if (inputText !== '') {
+            onEnter(inputText);
+            setInputText('');
+        }
+       
     }
     return (
         <C.Container>
