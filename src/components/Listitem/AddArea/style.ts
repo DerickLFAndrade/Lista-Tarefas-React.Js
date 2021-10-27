@@ -23,6 +23,15 @@ input {
 }
 
 .image {
-    margin-left: -25px
+    position: absolute;
+    cursor: pointer;
+    margin-left: 930px
+}
+.image:hover {
+    font-size: 22px;
+    margin-top -5px;
+    margin-left: 925px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px
 }
 `;
