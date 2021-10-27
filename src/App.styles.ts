@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.div `
 background-color: #17181F;
-color: #ffff ;
+color: gray;
 min-height: 100vh;
 `;
 
@@ -22,11 +22,3 @@ padding-bottom: 20px
 
 `;
 
-export const Lista = styled.li `
-margin-top: 10px;
-background-color: rgba(0, 0, 0, 0.4);
-padding: 10px;
-border-radius: 5px;
-color: #ffff;
-font-size: 20px;
-`;
